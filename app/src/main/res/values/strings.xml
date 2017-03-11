@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">TakeMe</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Report New</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="action_create_new">Create a New</string>
+    <string name="title_activity_create_new">Create Your New</string>
+    <string name="action_check_new">check_new</string>
+    <string name="details_hint">Please write a short description</string>
+    <string name="choose_animal">Choose animal</string>
+    <string name="choose_breed">Choose breed</string>
+    <string name="choose_category">Choose category</string>
+    <string name="how_many_animals">How many animals?</string>
+    <string name="dialog_id">dialog_id</string>
+    <string name="title_activity_new_detail">New Detail</string>
+    <string name="action_share">share</string>
+    <string name="take_me">take me!</string>
+    <string name="see_it">see it!</string>
+    <string name="show_location">show location</string>
+    <string name="animal">animal</string>
+    <string name="Animal">Animal</string>
+    <string name="Breed">Breed</string>
+    <string name="Dog">Dog</string>
+    <string name="Cat">Cat</string>
+    <string name="Doberman">Doberman</string>
+    <string name="German_Shepard">German Shepard</string>
+    <string name="Boxer">Boxer</string>
+    <string name="Golden">Golden</string>
+    <string name="Russian_Blue">Russian Blue</string>
+    <string name="Egyptian">Egyptian</string>
+    <string name="Siberian">Siberian</string>
+    <string name="Somali">Somali</string>
+    <string name="location">Location</string>
+    <string name="thanks">Thanks for trust TakeMe!</string>
+    <string name="take_care_of">We will take care of your pet</string>
+    <string name="new_created">New has been created</string>
+
+
+</resources>

@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    tools:context="com.example.ruben.takeme.CreateNewActivity">
+
+    <item android:id="@+id/action_check_new"
+        android:title="@string/action_check_new"
+        android:icon="@drawable/white_check"
+        android:orderInCategory="100"
+        app:showAsAction="always" />
+
+</menu>

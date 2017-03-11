@@ -1,0 +1,191 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ruben.takeme.NewDetailActivity$PlaceholderFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:id="@+id/new_detail_container"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="10">
+
+            <ImageView
+                android:id="@+id/new_detail_icon"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="5"
+                android:scaleType="centerCrop"
+                android:contentDescription="asdas" />
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="5">
+
+                <LinearLayout
+                    android:id="@+id/linear_horizonta_1"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="1"
+                    android:layout_marginTop="10dp">
+
+
+
+                    <RelativeLayout
+                        android:layout_below="@+id/new_detail_how_many"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+
+                        android:layout_weight="0.6">
+
+                        <TextView
+                            android:id="@+id/new_detail_how_many"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="How many?"
+                            android:paddingLeft="16dp"/>
+
+                        <TextView
+                            android:layout_alignParentRight="true"
+                            android:id="@+id/new_detail_animals_taked"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="2/3"
+                            android:paddingRight="16dp"/>
+
+                        <SeekBar
+                            android:id="@id/new_detail_hm_seekbar"
+                            android:layout_below="@+id/new_detail_how_many"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_vertical"
+                            android:layout_gravity="center_vertical"/>
+
+                     </RelativeLayout>
+
+
+
+
+                    <Button
+                        style="?android:attr/buttonStyleSmall"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/take_me"
+                        android:id="@+id/new_detail_take_me"
+                        android:layout_weight="0.4"
+                        android:layout_marginRight="16dp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linear_horizonta_2"
+                    android:layout_below="@id/linear_horizonta_1"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="3">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="@string/Animal"
+                        android:id="@+id/textView2"
+                        android:layout_weight="0.8"
+                        android:layout_gravity="left|center_vertical"
+                        android:paddingLeft="16dp"/>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="Dog"
+                        android:id="@+id/new_detail_animal"
+                        android:layout_weight="1.2"
+                        android:layout_gravity="center_vertical"
+                        android:paddingLeft="10dp"/>
+
+
+                    <Button
+                        style="?android:attr/buttonStyleSmall"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/location"
+                        android:id="@+id/new_detail_show_location"
+                        android:layout_marginLeft="16dp"
+                        android:layout_weight="1"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginRight="16dp"/>
+
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linear_horizonta_3"
+                    android:layout_below="@id/linear_horizonta_2"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="3">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="@string/Breed"
+                        android:id="@+id/textView6"
+                        android:layout_weight="0.8"
+                        android:layout_gravity="left|center_vertical"
+                        android:paddingLeft="16dp"/>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="Dog"
+                        android:id="@+id/new_detail_breed"
+                        android:layout_weight="1.2"
+                        android:layout_gravity="center_vertical"
+                        android:paddingLeft="10dp"/>
+
+                    <Button
+                        style="?android:attr/buttonStyleSmall"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/see_it"
+                        android:id="@+id/button2"
+                        android:layout_weight="1"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginRight="16dp"
+                        android:visibility="invisible"/>
+
+                </LinearLayout>
+                <TextView
+                    android:layout_below="@id/linear_horizonta_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="sfsdf z-.,cmz-,.xcm-z,.xmc-,.zxmc-,.zxcm-,.sdfafdsfdsfsdf z-.,cmz-,.xcm-z,.xmc-,.zxmc-,.zxcm-,.sdf
+                    afdsfdsfsdf z-.,cmz-,.xcm-z,.xmc-,.zxmc-,.zxcm-,.sdfsdf"
+                    android:id="@+id/new_detail_description"
+                    android:paddingRight="16dp"
+                    android:paddingLeft="16dp"
+                    android:paddingTop="16dp"
+                    android:paddingBottom="16dp"
+                    android:gravity="bottom"/>
+
+
+            </RelativeLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
